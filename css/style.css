@@ -198,7 +198,19 @@ button {
         font-weight: 700;
         padding-bottom: 30px;
     }
-
+    .scrollstop_btn{
+        display: none;
+        position: absolute;
+        top: -300px;
+        right: -100px;
+        cursor: pointer;
+        background: #d97652;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 40px;
+        font-weight: 700;
+        font-size: 16px;
+    }
     .con_03 {
         padding: 68px 0 0 0;
     }
@@ -591,6 +603,7 @@ button {
     }
 
     .con_02 .btn-set {
+        position: relative;
         text-align: center;
         border-bottom: 1px solid #c4c4c4;
         padding-bottom: 60px;
@@ -601,7 +614,19 @@ button {
         font-weight: 700;
         padding-bottom: 28px;
     }
-
+    .scrollstop_btn {
+        display: none;
+        position: absolute;
+        top: -55px;
+        right: 0px;
+        cursor: pointer;
+        background: #d97652;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 40px;
+        font-weight: 700;
+        font-size: 16px;
+    }
     .con_03 {
         padding: 40px 32px 32px 32px;
     }
